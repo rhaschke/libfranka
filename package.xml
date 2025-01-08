@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+	<name>libfranka</name>
+	<version>0.9.2</version>
+	<description>Franka Emika controller</description>
+	<maintainer email="marco.boneberger@franka.de">Marco Boneberger</maintainer>
+	<license>BSD</license>
+
+	<buildtool_depend>cmake</buildtool_depend>
+	<build_depend>eigen</build_depend>
+  <build_depend>libpoco-dev</build_depend>
+
+	<export>
+		<build_type>cmake</build_type>
+	</export>
+</package>
